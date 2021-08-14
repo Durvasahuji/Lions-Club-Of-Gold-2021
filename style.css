@@ -1,0 +1,80 @@
+body
+{
+    background-color: skyblue;
+    font-family:Century;
+}
+
+
+
+.myfooter
+{
+    background-color:lightgrey;
+    text-align:center;
+    padding: 14px;
+    
+}
+
+.nav
+{
+    background-color:chartreuse;
+    padding:16px;
+}
+
+.nav a
+{
+    padding: 10px;
+    text-decoration:none;
+    color:rgb(3, 0, 0);
+}
+
+.info
+{
+    font-family:Century;
+}
+
+.main
+{
+    
+    background-color:grey;
+    padding:14px;
+    
+}
+
+.main a
+{
+    text-decoration:none;
+    padding:14px;
+    color:black;
+
+
+}
+
+.main a:hover
+{
+    background-color:black;
+    color:white;
+    
+}
+.nav a:hover
+{
+    background-color:white;
+    color:black;
+}
+
+h5
+{
+    font-size:40px;
+    float:left;
+    text-shadow: 2px 2px 5px blue;
+    animation-name:abcd ;
+    animation-duration: 5s;
+}
+
+@keyframes abcd
+{
+   from{text-shadow: 2px 2px 5px blue; } 
+   to {text-shadow: 2px 2px yellow;}
+}
+
+
+
